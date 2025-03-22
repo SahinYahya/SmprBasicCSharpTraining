@@ -5,8 +5,11 @@
 // else-if ilk if şartına alternatif olarak doğar.
 
 // NOT : Gerektiği durumlarda istediğiniz kadar else-if bloğu ekleyebilirsiniz.
+// 0-100 arasında girilen notun harf karşılığını veren programı yazınız.
 
 
+
+/*
 Console.Write("Notunuz: ");
 int not = Convert.ToInt32(Console.ReadLine());
 
@@ -39,21 +42,26 @@ else
     Console.WriteLine("Harf Notunuz: FF");
 }
 
+*/
 
 //////////////////////
 ///
 
-        while (true) // Kullanıcı çıkmak isteyene kadar döngü devam eder
-        {
-            Console.Write("Notunuzu girin: ");
-            int not1 = Convert.ToInt32(Console.ReadLine());
+/*
 
-            // Eğer kullanıcı çıkmak isterse (-1 girerse) döngüden çık
-            if (not1 == -1)
+while (true) // Kullanıcı çıkmak isteyene kadar döngü devam eder
+{
+    Console.Write("Notunuzu girin: ");
+    int not1 = Convert.ToInt32(Console.ReadLine());
+
+    // Eğer kullanıcı çıkmak isterse (-1 girerse) döngüden çık
+    if (not1 > 100 || not1 < 0)
+
+        Console.WriteLine("Geçersiz bir değer girdiniz: ");
         
 
             // Not aralığını kontrol et
-            if (not1 >= 90)
+            else if (not1 >= 90 || not1 == 100)
             {
                 Console.WriteLine("Harf Notunuz: AA");
             }
@@ -85,3 +93,7 @@ else
             Console.WriteLine(); // Boş satır ekleyerek çıktıyı düzenli göster
         }
         
+
+*/
+
+
