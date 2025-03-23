@@ -222,19 +222,7 @@ while (isTrue)
 
 
     }
-
+    //Console.ReadKey();
+    Console.ReadLine();
+    Console.Clear();
 }
-
-/*
-            string updateSt = Console.ReadLine(); // input
-            if (students.Remove(updateSt))
-            {
-                Console.WriteLine($"{updateSt} adlı öğrenci başarıyla silindi.");
-            }
-            else
-            {
-                Console.WriteLine($"{updateSt} adlı öğrenci bulunamadı");
-            }
-            break;
-
-*/
