@@ -44,9 +44,9 @@ for (int i = 0; i < numbers.Length; i++)
 
 // foreach ile bir listenin elemanlarını ekrana yazdırma
 
-string[] ogrenciler = { "İsmail", "Hüseyin", "Sezer", "Bayram", "Coşkun" };
+string[] ogrenciler = { "İsmail", "Hüseyin", "Sezer", "Bayram", "Coşkun" }; // Bu listenin length'i 5'tir.
 Console.WriteLine("----------11A Öğrencileri----------");
-foreach (string ogrenci in ogrenciler)
+foreach (string ogrenci in ogrenciler) // string yerine var'da kullanılabilir burada. Var hem string hem int içerikleri alabilir.
 {
     Console.WriteLine(ogrenci);
 }

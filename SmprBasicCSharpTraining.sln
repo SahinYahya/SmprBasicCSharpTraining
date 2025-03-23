@@ -67,6 +67,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Array_ForEach", "Basic\loop
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Do-while", "Basic\loops\Do-while\Do-while.csproj", "{9C3DF4BB-75D0-46AC-93E8-F7A6A2B88A90}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Uygulamalar", "Uygulamalar", "{4EB33250-5E03-4DEB-8C15-BFE4F6434252}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentManagementApp", "Basic\Uygulamalar\StudentManagementApp\StudentManagementApp.csproj", "{757A30BA-9645-4021-9DFA-A94A7362F27B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -169,6 +173,10 @@ Global
 		{9C3DF4BB-75D0-46AC-93E8-F7A6A2B88A90}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C3DF4BB-75D0-46AC-93E8-F7A6A2B88A90}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9C3DF4BB-75D0-46AC-93E8-F7A6A2B88A90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{757A30BA-9645-4021-9DFA-A94A7362F27B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{757A30BA-9645-4021-9DFA-A94A7362F27B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{757A30BA-9645-4021-9DFA-A94A7362F27B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{757A30BA-9645-4021-9DFA-A94A7362F27B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -204,6 +212,8 @@ Global
 		{A9C13B4C-0A97-4062-AC92-38EF270D8DC9} = {1A872029-79AF-47B2-9D90-AD4C751CEFED}
 		{7C8F4210-F9AF-4B8E-9825-32A716249447} = {A9C13B4C-0A97-4062-AC92-38EF270D8DC9}
 		{9C3DF4BB-75D0-46AC-93E8-F7A6A2B88A90} = {1A872029-79AF-47B2-9D90-AD4C751CEFED}
+		{4EB33250-5E03-4DEB-8C15-BFE4F6434252} = {3380EF94-10AE-4048-BCFD-FA2A9277D01B}
+		{757A30BA-9645-4021-9DFA-A94A7362F27B} = {4EB33250-5E03-4DEB-8C15-BFE4F6434252}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1B647F57-3FF3-4ACB-9E7D-22971A2B58F9}

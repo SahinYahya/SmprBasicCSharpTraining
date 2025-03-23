@@ -5,6 +5,7 @@
 Console.WriteLine("Çıkış yapmak için 0'a basınız\nBir gün numarası giriniz(1-7): ");
 int gun = Convert.ToInt32(Console.ReadLine());
 
+/*
 switch (gun)
 {
     case 1:
@@ -32,3 +33,7 @@ switch (gun)
         Console.WriteLine("Hatalı giriş yaptınız.");
         break;
 }
+*/
+
+
+
