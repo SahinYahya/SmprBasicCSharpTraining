@@ -43,7 +43,7 @@ while (devam)
                 Console.WriteLine($"{silinecekOgrenci} adlı öğrenci bulunamadı");
             }
             break;
-        case 3:
+        case 3: //Öğrenci güncelle
             Console.WriteLine("Güncellemek İstediğiniz Öğrencinin Adını Giriniz: ");
             string eskiAdi = Console.ReadLine();
             if (ogrenciler.Contains(eskiAdi))
